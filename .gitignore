@@ -151,4 +151,7 @@ bower.json
 .byebug_history
 
 # Ignore node_modules
-node_modules/
+/public/packs
+/public/packs-test
+yarn-debug.log*
+.yarn-integrity
