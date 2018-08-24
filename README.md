@@ -1,24 +1,34 @@
-# README
+# TRELLO clone
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Demo of Trello using Rails and Vue.js.
 
-Things you may want to cover:
 
-* Ruby version
+## Quick Start
 
-* System dependencies
+1.  Setup your project gems/libraries environment installing [RVM](http://rvm.io).
 
-* Configuration
+    ```shell
+    $ rvm install 2.5.1
+    $ rvm use 2.5.1@trello-clone --create
+    ```
 
-* Database creation
+2.  Install libraries.
 
-* Database initialization
+    ```shell
+    $ bundle install
+    ```
 
-* How to run the test suite
+3.  Prepare the database:
 
-* Services (job queues, cache servers, search engines, etc.)
+    ```shell
+    $ rails db:setup
+    ```
 
-* Deployment instructions
+5.  **Run the server**
 
-* ...
+    ```shell
+    $ rails s
+    ```
+
+
+[![Analytics](https://ga-beacon.appspot.com/UA-25165099-7/trello-clone/README.md?flat)](https://github.com/leomperes/trello-clone "TRELLO clone with Rails and Vue.js")
